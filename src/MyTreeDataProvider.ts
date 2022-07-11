@@ -13,9 +13,9 @@ export class MyTreeDataProvider implements vscode.TreeDataProvider<Entry>
         let b = randomInt(100);
         let c = randomInt(100);
 
-        let entry1 = new Entry("Rumba", "Rumba Dance" + a, vscode.TreeItemCollapsibleState.None);
-        let entry2 = new Entry("Tango", "Tango Dance" + b, vscode.TreeItemCollapsibleState.None);
-        let entry3 = new Entry("Foxtrot", "Foxtrot Dance" + c, vscode.TreeItemCollapsibleState.Collapsed);
+        let entry1 = new Entry("Item 1", "Item One" + a, vscode.TreeItemCollapsibleState.None);
+        let entry2 = new Entry("Item 2", "Item Two" + b, vscode.TreeItemCollapsibleState.None);
+        let entry3 = new Entry("Item 3", "Item Three" + c, vscode.TreeItemCollapsibleState.Collapsed);
 
         this.deps = new Array(entry1, entry2, entry3);
 
